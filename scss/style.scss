@@ -1,60 +1,60 @@
-/* Deine Parameter: */
+/* Modifiable parameters */
 $width: 60px;
 $height: 30px;
-$absatz: $height+$height/2;
-$versatz: $width/2;
+$spacing: $height + $height / 2;
+$offset: $width / 2;
 
-/* Ab hier deine Regeln :-) */
+/* Rules for arranging elements */
 div {
   background-color: black;
   position: absolute; 
 }
 
 .el-1 {
-  width: $width*4;
+  width: $width * 4;
   height: $height;
-  top: $absatz;
-  left: $versatz;
+  top: $spacing;
+  left: $offset;
 }
 
 .el-2 {
-  width: $width*3;
+  width: $width * 3;
   height: $height;
-  top: $absatz*2;
-  left: $width*4+$versatz*2;
+  top: $spacing * 2;
+  left: $width * 4 + $offset * 2;
 }
 
 .el-3 {
   width: $width;
   height: $height;
-  top: $absatz*3;
-  left: $width*7+$versatz*3;
+  top: $spacing * 3;
+  left: $width * 7 + $offset * 3;
 }
 
 .el-4 {
-  width: $width/2;
+  width: $width / 2;
   height: $height;
-  top: $absatz*4;
-  left: $width*8+$versatz*4;
+  top: $spacing * 4;
+  left: $width * 8 + $offset * 4;
 }
 
 .el-5 {
   width: $width;
   height: $height;
-  top: $absatz*5;
-  left: $width*7+$versatz*3;
+  top: $spacing * 5;
+  left: $width * 7 + $offset * 3;
 }
 
 .el-6 {
-  width: $width*3;
+  width: $width * 3;
   height: $height;
-  top: $absatz*6;
-  left: $width*4+$versatz*2;
+  top: $spacing * 6;
+  left: $width * 4 + $offset * 2;
 }
 
 .el-7 {
-  width: $width*4;
+  width: $width * 4;
   height: $height;
-  top: $absatz*7;
-  left: $versatz;
+  top: $spacing * 7;
+  left: $offset;
 }

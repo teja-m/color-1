@@ -1,0 +1,60 @@
+/* Deine Parameter: */
+/* Ab hier deine Regeln :-) */
+body {
+  max-width: 80%;
+  margin: 5% auto;
+}
+
+div {
+  background-color: black;
+  position: absolute;
+}
+
+.el-1 {
+  width: 240px;
+  height: 30px;
+  top: 45px;
+  left: 30px;
+}
+
+.el-2 {
+  width: 180px;
+  height: 30px;
+  top: 90px;
+  left: 300px;
+}
+
+.el-3 {
+  width: 60px;
+  height: 30px;
+  top: 135px;
+  left: 510px;
+}
+
+.el-4 {
+  width: 30px;
+  height: 30px;
+  top: 180px;
+  left: 600px;
+}
+
+.el-5 {
+  width: 60px;
+  height: 30px;
+  top: 225px;
+  left: 510px;
+}
+
+.el-6 {
+  width: 180px;
+  height: 30px;
+  top: 270px;
+  left: 300px;
+}
+
+.el-7 {
+  width: 240px;
+  height: 30px;
+  top: 315px;
+  left: 30px;
+}

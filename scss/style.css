@@ -1,10 +1,5 @@
 /* Deine Parameter: */
 /* Ab hier deine Regeln :-) */
-body {
-  max-width: 80%;
-  margin: 5% auto;
-}
-
 div {
   background-color: black;
   position: absolute;

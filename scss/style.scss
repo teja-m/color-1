@@ -1,8 +1,10 @@
 /* Modifiable parameters */
-$width: 60px;
-$height: 30px;
+$width: 5%;
+$height: 5%;
+$min-height: 10px;
 $spacing: $height + $height / 2;
 $offset: $width / 2;
+$grid-columns: 7;
 
 /* Rules for arranging elements */
 div {
@@ -10,51 +12,48 @@ div {
   position: absolute; 
 }
 
+@for $i from 1 through $grid-columns {
+  $color: rgb($i * 40, $i * 80, $i * 10);
+   .el-#{$i} {
+      height: $height;
+      min-height: $min-height;
+      top: $spacing * $i;
+      background-color: $color;
+      border:5px solid invert($color);
+  }
+}
+
 .el-1 {
   width: $width * 4;
-  height: $height;
-  top: $spacing;
   left: $offset;
 }
 
 .el-2 {
   width: $width * 3;
-  height: $height;
-  top: $spacing * 2;
   left: $width * 4 + $offset * 2;
 }
 
 .el-3 {
-  width: $width;
-  height: $height;
-  top: $spacing * 3;
+  width: $width * 2;
   left: $width * 7 + $offset * 3;
 }
 
 .el-4 {
-  width: $width / 2;
-  height: $height;
-  top: $spacing * 4;
-  left: $width * 8 + $offset * 4;
+  width: $width;
+  left: $width * 9 + $offset * 4;
 }
 
 .el-5 {
-  width: $width;
-  height: $height;
-  top: $spacing * 5;
+  width: $width * 2;
   left: $width * 7 + $offset * 3;
 }
 
 .el-6 {
   width: $width * 3;
-  height: $height;
-  top: $spacing * 6;
   left: $width * 4 + $offset * 2;
 }
 
 .el-7 {
   width: $width * 4;
-  height: $height;
-  top: $spacing * 7;
   left: $offset;
 }

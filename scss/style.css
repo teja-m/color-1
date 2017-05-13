@@ -5,6 +5,7 @@ div {
   position: absolute;
 }
 
+/* Calculate spacing and color/ color-inversion */
 .el-1 {
   height: 5%;
   min-height: 10px;

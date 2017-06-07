@@ -24,6 +24,13 @@ div {
   }
 }
 
+@for $i from 1 through $grid-columns {
+  $max-width: 4;
+   .el-#{$i} {
+      width: $width * ($max-width - 1);
+  }
+}
+
 .el-1 {
   width: $width * 4;
   left: $offset;

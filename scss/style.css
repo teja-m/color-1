@@ -14,12 +14,24 @@ div {
   border: 5px solid #d7aff5;
 }
 
+.el-1:hover {
+  background-color: #d7aff5;
+  border: 5px solid #28500a;
+  cursor: pointer;
+}
+
 .el-2 {
   height: 5%;
   min-height: 10px;
   top: 15%;
   background-color: #50a014;
   border: 5px solid #af5feb;
+}
+
+.el-2:hover {
+  background-color: #af5feb;
+  border: 5px solid #50a014;
+  cursor: pointer;
 }
 
 .el-3 {
@@ -30,12 +42,24 @@ div {
   border: 5px solid #870fe1;
 }
 
+.el-3:hover {
+  background-color: #870fe1;
+  border: 5px solid #78f01e;
+  cursor: pointer;
+}
+
 .el-4 {
   height: 5%;
   min-height: 10px;
   top: 30%;
   background-color: #a0ff28;
   border: 5px solid #5f00d7;
+}
+
+.el-4:hover {
+  background-color: #5f00d7;
+  border: 5px solid #a0ff28;
+  cursor: pointer;
 }
 
 .el-5 {
@@ -46,6 +70,12 @@ div {
   border: 5px solid #3700cd;
 }
 
+.el-5:hover {
+  background-color: #3700cd;
+  border: 5px solid #c8ff32;
+  cursor: pointer;
+}
+
 .el-6 {
   height: 5%;
   min-height: 10px;
@@ -54,12 +84,24 @@ div {
   border: 5px solid #0f00c3;
 }
 
+.el-6:hover {
+  background-color: #0f00c3;
+  border: 5px solid #f0ff3c;
+  cursor: pointer;
+}
+
 .el-7 {
   height: 5%;
   min-height: 10px;
   top: 52.5%;
   background-color: #ffff46;
   border: 5px solid #0000b9;
+}
+
+.el-7:hover {
+  background-color: #0000b9;
+  border: 5px solid #ffff46;
+  cursor: pointer;
 }
 
 .el-1 {

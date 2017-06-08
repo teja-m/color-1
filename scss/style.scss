@@ -22,6 +22,11 @@ div {
       background-color: $color;
       border:5px solid invert($color);
   }
+  .el-#{$i}:hover {
+      background-color: invert($color);
+      border:5px solid $color;
+      cursor:pointer;
+  }
 }
 
 @for $i from 1 through $grid-columns {
